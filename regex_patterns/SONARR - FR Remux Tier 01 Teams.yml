@@ -1,5 +1,5 @@
 name: SONARR - FR Remux Tier 01 Teams
-pattern: ^(FtLi|Goldenyann|HDForever|HeavyWeight|ONLY|Psaro|TyrellCorp)$
+pattern: \b(FtLi|Goldenyann|HDForever|HeavyWeight|ONLY|Psaro|TyrellCorp)\b
 description: ''
 tags:
 - sonarr

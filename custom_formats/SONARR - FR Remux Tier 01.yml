@@ -3,26 +3,32 @@ description: ''
 tags:
 - sonarr
 conditions:
-- name: Remux
-  negate: false
-  qualityModifier: remux
-  required: true
-  type: quality_modifier
 - name: FR Remux Tier 01 Teams
   negate: false
   pattern: SONARR - FR Remux Tier 01 Teams
   required: true
   type: release_group
+- name: REMUX
+  negate: false
+  pattern: SONARR - REMUX Title
+  required: true
+  type: release_title
 tests:
 - conditionResults:
-  - matches: false
+  - matches: true
+    name: Remux
+    negate: false
+    pattern: SONARR - REMUX
+    required: true
+    type: release_title
+  - matches: true
     name: FR Remux Tier 01 Teams
     negate: false
-    pattern: '[SONARR] FR Remux Tier 01 Teams'
+    pattern: SONARR - FR Remux Tier 01 Teams
     required: true
     type: release_group
   expected: true
   id: 1
   input: Le Bureau Des Legendes Remux-ONLY
-  lastRun: '2025-03-18T20:09:59.026134'
-  passes: false
+  lastRun: '2026-01-25T23:13:15.891282'
+  passes: true
