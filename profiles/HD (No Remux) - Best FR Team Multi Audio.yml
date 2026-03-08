@@ -18,7 +18,7 @@ minScoreIncrement: 1
 custom_formats:
 - name: FR HD Light Tier
   score: 4100
-- name: x265
+- name: x265 (HD)
   score: 4000
 - name: MULTi Audio
   score: 950
