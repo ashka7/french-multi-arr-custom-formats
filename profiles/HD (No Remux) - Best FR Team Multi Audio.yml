@@ -17,7 +17,7 @@ upgradeUntilScore: 999999
 minScoreIncrement: 1
 custom_formats:
 - name: FR HD Light Tier
-  score: 2100
+  score: 4100
 - name: MULTi Audio
   score: 950
 - name: VOSTFR
