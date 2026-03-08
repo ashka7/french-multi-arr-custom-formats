@@ -1,0 +1,12 @@
+name: TrueHD
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: TrueHD
+  negate: false
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests: []
