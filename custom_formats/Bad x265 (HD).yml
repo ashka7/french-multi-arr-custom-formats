@@ -1,4 +1,4 @@
-name: Bad x265 (HD)
+name: x265 (HD)
 description: ''
 tags:
 - radarr
@@ -9,14 +9,4 @@ conditions:
   pattern: x265
   required: true
   type: release_title
-- name: Not 2160p
-  negate: true
-  required: true
-  resolution: 2160p
-  type: resolution
-- name: Not FR Light HD Teams
-  negate: true
-  pattern: FR HD Light Teams
-  required: true
-  type: release_group
 tests: []
