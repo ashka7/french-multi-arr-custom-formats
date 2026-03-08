@@ -1,0 +1,4 @@
+name: TrueHD
+pattern: True[ .-]?HD[ .-]?
+description: ''
+tests: []
