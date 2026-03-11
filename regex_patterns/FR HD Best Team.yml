@@ -1,5 +1,5 @@
 name: FR HD Best Teams
-pattern: /b(QTZ)/b
+pattern: \b(QTZ)\b
 description: ''
 tags:
 - radarr
