@@ -8,5 +8,5 @@ conditions:
   negate: false
   pattern: FR HD Best Team
   required: true
-  type: release_team
+  type: release_group
 tests: []
