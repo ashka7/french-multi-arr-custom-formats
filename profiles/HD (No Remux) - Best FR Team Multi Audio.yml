@@ -16,16 +16,12 @@ minCustomFormatScore: 0
 upgradeUntilScore: 999999
 minScoreIncrement: 1
 custom_formats:
+- name: FR HD Best Team
+  score: 4500
 - name: FR HD Light Tier
   score: 4100
 - name: x265 (HD)
   score: 4000
-- name: TrueHD
-  score: 3900
-- name: 7.1 Surround
-  score: 3000
-- name: 5.1 Surround
-  score: 2900
 - name: MULTi Audio
   score: 950
 - name: VOSTFR
