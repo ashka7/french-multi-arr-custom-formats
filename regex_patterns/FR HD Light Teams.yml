@@ -1,5 +1,5 @@
 name: FR HD Light Teams
-pattern: \b(PopHD|QTZ|RiFiFi|FW|TyHD|mHDgz)\b
+pattern: \b(PopHD|RiFiFi|FW|TyHD|mHDgz)\b
 description: ''
 tags:
 - radarr
