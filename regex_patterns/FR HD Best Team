@@ -1,1 +1,7 @@
-/b(QTZ)/b
+name: FR HD Best Teams
+pattern: /b(QTZ)/b
+description: ''
+tags:
+- radarr
+- sonarr
+tests: []
