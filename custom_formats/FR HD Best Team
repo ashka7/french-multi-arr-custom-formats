@@ -1,0 +1,12 @@
+name: FR HD Best Team
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: FR HD Best Team
+  negate: false
+  pattern: FR HD Best Team
+  required: true
+  type: release_team
+tests: []
